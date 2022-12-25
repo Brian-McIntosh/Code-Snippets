@@ -9,27 +9,9 @@ A collection of miscellaneous code snippets for Alerts, Keyboard Binding, etc.
 
     // Configure button handler - background thread
     let submitButton = UIAlertAction(title: "Add", style: .default) { (action) in
-
         // Get the textfield for the alert
         let textfield = alert.textFields![0]
-
-        // Create a Person object
-        // Person is a subclass of NSManagedObject which allows us to save to Core Data
-        let newPerson = Person(context: self.context)
-        newPerson.name = textfield.text
-
-        // Save the data
-        // try! self.context.save() // error w/o try! should use do/catch
-        do {
-            try self.context.save()
-        }
-        catch {
-
-        }
-
-        // Re-fetch the data
-        // this function handles the context, fetchRequest, and reloading of tableview on main thread
-        self.fetchPeople()
+        print(textfield.text)
     }
 
     // Add button
