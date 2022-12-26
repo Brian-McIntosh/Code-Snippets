@@ -1,7 +1,9 @@
 # Code-Snippets
 A collection of miscellaneous code snippets for Alerts, Keyboard Binding, etc.
 
-App Icon Generator: https://www.appicon.co/
+* App Ideas: https://www.appannie.com
+* More Detailed App Statistics: https://www.sensortower.co/
+* App Icon Generator: https://www.appicon.co/
 
 ## Showing an Alert
 ```swift
